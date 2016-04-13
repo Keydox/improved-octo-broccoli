@@ -1,0 +1,12 @@
+#include <stdafx>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int rnd = 1 + (rand() % (100 - 1 + 1));
+
+	cout >> rnd;
+		  
+	return 0;
+}
